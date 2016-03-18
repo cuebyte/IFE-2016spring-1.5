@@ -21,7 +21,12 @@
         <form class="" action="index.html" method="post">
           <div>
             <label class="align" for="email">请输入邮箱地址</label>
-            <input type="text" name="email" value="这是一个文本输入框">
+            <div style="display:inline-block;vertical-align: text-top;">
+              <input type="text" name="email" value="这是一个文本输入框">
+              <p class="hint">
+                邮箱地址请按要求格式输入
+              </p>
+            </div>
           </div>
           <div>
             <label class="align" for="password">请输入密码</label>
@@ -29,7 +34,12 @@
           </div>
           <div>
             <label class="align" for="re-password">请重复密码</label>
-            <input type="password" name="re-password" value="admin">
+            <div style="display:inline-block;vertical-align: text-top;">
+              <input type="password" name="re-password" value="admin">
+              <p class="hint">
+                密码为6-16位英文数字
+              </p>
+            </div>
           </div>
           <div>
             <label class="align" for="gender">性别</label>
